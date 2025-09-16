@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/alissoneves/Desafio_CI_CD'
+                git branch: 'main', url: 'https://github.com/alissoneves/Desafio_CI_CD'
             }
         }
         stage('Build') {

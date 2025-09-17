@@ -1,0 +1,17 @@
+pipeline {
+    agent { label 'Node_agent2' }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/alissoneves/Desafio_CI_CD', branch: 'main'
+            }
+        }
+
+        stage('Testar Node') {
+            steps {
+                echo "Executando no node: ${env.NODE_NAME}"
+            }
+        }
+    }
+}

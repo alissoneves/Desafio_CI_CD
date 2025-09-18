@@ -19,6 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Fazendo deploy...'
+                echo 'Desafio DevOps Philips finalizado com sucesso!'
             }
         }
     }

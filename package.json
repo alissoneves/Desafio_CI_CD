@@ -1,0 +1,11 @@
+{
+  "name": "webhook-test",
+  "version": "1.0.0",
+  "description": "Projeto simples para testar webhook com Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testes executados com sucesso!\" && exit 0"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
+}

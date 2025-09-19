@@ -32,7 +32,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Fazendo deploy...'
-                echo 'Desafio DevOps Philips finalizado com sucesso com webhoooook tste!!!!!!'
+                echo 'Desafio DevOps Philips finalizado com sucesso no webhook teste!'
             }
         }
     }

@@ -6,6 +6,6 @@
   "scripts": {
     "test": "echo \"Testes executados com sucesso!\" && exit 0"
   },
-  "author": "Seu Nome",
+  "author": "Seu Nome: coloquei depois que configurei o pipeline automatico",
   "license": "MIT"
 }
